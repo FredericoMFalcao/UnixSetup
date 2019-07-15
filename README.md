@@ -1,16 +1,18 @@
 # X11 Setup
 
-# .vimrc
+
+
+# Vim 
+## .vimrc
 My vim initial configuration file.
 
+## Bin Utilities - Filters
 
-# Vim Bin Utilities - Filters
-
-### ReplaceRespectCase
+#### ReplaceRespectCase
 A simple Command Line Utility useful to replace patterns in code.
 Useful in Vim.
 
-### Example
+#### Example
 When writing code where classname and global have the same name.
 ````
 echo "class Classname { ... } varname;" | rrc varname Users Groups
